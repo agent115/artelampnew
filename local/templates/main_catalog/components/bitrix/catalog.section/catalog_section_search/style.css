@@ -1,0 +1,16 @@
+.shopSearch__li .second_pict{
+    display:none;
+}
+
+.shopSearch__btn a{
+    color:#fff;
+}
+
+.shopSearch__btn a:hover{
+    color:#fff;
+    text-decoration: none;
+}
+
+.search-page{
+    display: none;
+}

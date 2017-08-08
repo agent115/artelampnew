@@ -1,0 +1,22 @@
+.total-price {
+	font-size: 25rem;
+	line-height: 28rem;
+	display: inline-block;
+	margin-bottom: 10px;
+	padding: 0 3px;
+	color: #000;
+}
+
+.shopItem__set-list .col-md-2{
+	margin-bottom:20px;
+}
+
+.shopItem__set-btn {
+	color: #fff;
+	text-decoration: none;
+}
+
+.shopItem__set-btn:hover {
+	color: #fff;
+	text-decoration: none;
+}

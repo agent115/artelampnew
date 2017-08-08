@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Owl test</title>
+
+<link href="/local/js/swiper/css/swiper.min.css" rel="stylesheet" type="text/css" media="all">
+
+<script type="text/javascript" src="/bitrix/js/main/jquery/jquery-2.1.3.min.js"></script>
+<script type="text/javascript" src="/local/js/swiper/js/swiper.jquery.min.js"></script>
+
+ </head>
+ <body>
+
+<div style="width: 600px; background-color: red;">
+<div class="swiper-container">
+    <div class="item-video" data-merge="1"><a class="owl-video" href="https://www.youtube.com/watch?v=vx5Mm8QCITg"></a></div>
+    <div class="item-video" data-merge="2"><a class="owl-video" href="https://www.youtube.com/watch?v=O74yXWsYJ4g"></a></div>
+    <div class="item-video" data-merge="1"><a class="owl-video" href="https://www.youtube.com/watch?v=cZd0N8jtLGk"></a></div>
+    <div class="item-video" data-merge="2"><a class="owl-video" href="https://www.youtube.com/watch?v=6ZXwpM5LI1s"></a></div>
+</div>
+</div>
+
+<div class="swiper-container">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">Slide 1</div>
+        <div class="swiper-slide">Slide 2</div>
+        <div class="swiper-slide">Slide 3</div>
+        ...
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+    
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+    
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+</div>
+
+<script>
+  $(document).ready(function () {
+    //initialize swiper when document ready  
+    var mySwiper = new Swiper ('.swiper-container', {
+      // Optional parameters
+      direction: 'vertical',
+      loop: true,
+						pagination: '.swiper-pagination'
+    })        
+  });
+</script>
+
+
+
+ </body>
+</html>
+
+
+	
+

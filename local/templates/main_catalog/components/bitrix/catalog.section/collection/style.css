@@ -1,0 +1,16 @@
+.indexCatalog__item-btn a{
+	color:#fff;
+}
+
+.indexCatalog__item-btn a:hover{
+	color:#fff;
+	text-decoration: none;
+}
+
+.indexCatalog__item .second_pict{
+	display:none;
+}
+
+.indexCatalog__item .indexCatalog__item-razmer span{
+	top:-13px;
+}

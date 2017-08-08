@@ -1,0 +1,1 @@
+<img src="<?=SITE_TEMPLATE_PATH?>/img/brand.png" alt="" class="img-responsive center-block">

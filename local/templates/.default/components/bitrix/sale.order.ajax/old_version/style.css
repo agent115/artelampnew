@@ -1,0 +1,34 @@
+.standart__radio{
+    padding-left:30px;
+}
+
+.comment_textarea{
+    font-size: 14rem;
+    line-height: 17rem;
+    display: block;
+    width: 100%;
+    height: 81px;
+    margin-bottom: 20px;
+    padding: 15px;
+    color: #000;
+    border: 1px solid #000;
+}
+
+.comment_fieldset{
+    padding-left:30px;
+}
+
+.btn_confirm_order_container{
+    padding-left:30px;
+}
+
+.standart__btn a, .standart__btn a:hover, .standart__btn a, .standart__btn a:focus{
+    text-decoration: none;
+    color:#fff;
+}
+
+.preview-img {
+    max-height: 110px;
+    max-width: 110px;
+}
+

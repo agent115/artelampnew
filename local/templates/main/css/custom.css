@@ -1,0 +1,28 @@
+.wrapper{
+    font-size: 14rem;
+    line-height: 24rem;
+    margin-bottom: 75px;
+    color: #000;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.company__btn a{
+    color: #000;
+    text-decoration: none;
+}
+
+.map-radio-input{
+    display:none;
+}
+
+#choose_shop_form label{
+    font-weight:normal;
+}
+
+.footer_subscribe_container{
+    width:75%;
+    display:inline-block;
+}

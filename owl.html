@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Owl test</title>
+
+<link href="/local/js/owl/owl.carousel.css" rel="stylesheet" type="text/css" media="all">
+<link href="/local/js/owl/owl.theme.default.css" rel="stylesheet" type="text/css" media="all">
+
+<script type="text/javascript" src="/bitrix/js/main/jquery/jquery-2.1.3.min.js"></script>
+<script type="text/javascript" src="/local/js/owl/owl.carousel.js"></script>
+
+ </head>
+ <body>
+
+<div style="width: 320px;background-color: red;">
+<div class="owl-carousel owl-theme">
+    <div class="item-video" data-merge="1"><a class="owl-video" href="https://www.youtube.com/watch?v=vx5Mm8QCITg"></a></div>
+    <div class="item-video" data-merge="2"><a class="owl-video" href="https://www.youtube.com/watch?v=O74yXWsYJ4g"></a></div>
+    <div class="item-video" data-merge="1"><a class="owl-video" href="https://www.youtube.com/watch?v=cZd0N8jtLGk"></a></div>
+    <div class="item-video" data-merge="2"><a class="owl-video" href="https://www.youtube.com/watch?v=6ZXwpM5LI1s"></a></div>
+</div>
+</div>
+
+<script>
+$(document).ready(function(){
+$('.owl-carousel').owlCarousel({
+        items:1,
+        merge:true,
+        loop:true,
+        margin:10,
+        video:true,
+        lazyLoad:true,
+        center:true,
+								videoWidth: 320, // Default false; Type: Boolean/Number
+								videoHeight: 200, // Default false; Type: Boolean/Number
+        responsive:{
+            480:{
+                items:2
+            },
+            600:{
+                items:4
+            }
+        }
+    });
+});
+</script>
+
+
+
+ </body>
+</html>
+
+
+	
+

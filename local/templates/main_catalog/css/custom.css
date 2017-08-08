@@ -1,0 +1,117 @@
+.wrapper{
+    font-size: 14rem;
+    line-height: 24rem;
+    margin-bottom: 75px;
+    color: #000;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.company__btn a{
+    color: #000;
+    text-decoration: none;
+}
+
+.map-radio-input{
+    display:none;
+}
+
+#choose_shop_form label{
+    font-weight:normal;
+}
+
+.read_more_about_company{
+    color:#000;
+}
+
+.read_more_about_company:hover{
+    color:#e24545;
+    text-decoration: none;
+}
+
+.recommended_products_container .shopItem__items-item{
+    height:auto;
+    width:25%;
+
+}
+
+.recommended_products_container .shopItem__items-item .shopItem__items-name{
+     font-size: 15rem;
+     line-height: 18rem;
+     display: block;
+     margin-bottom: 15px;
+     text-decoration: underline;
+     color: #000;
+ }
+
+.recommended_products_container .shopItem__items-item .shopItem__items-name:hover{
+    text-decoration: none;
+}
+
+.basket__additional-info .basket__additional-info-buy-btn{
+    display: block;
+    width: 29px;
+    height: 24px;
+}
+
+.second_pict{
+    display:none!important;
+}
+
+.basket__additional-info{
+    min-width:160px;
+}
+
+.basket__additional img{
+    width:80px;
+    height:80px;
+}
+
+.footer_subscribe_container{
+    width:75%;
+    display:inline-block;
+}
+
+.popup__btn-ok{
+    border:0;
+}
+
+.popup__btn__feedback-ok{
+    background: #f8f9fb;
+    background: -webkit-linear-gradient(top,#f8f9fb 0,#f5f7fa 25%,#eceff5 51%,#e5eaf2 75%,#e1e7f0 100%);
+    background: linear-gradient(to bottom,#f8f9fb 0,#f5f7fa 25%,#eceff5 51%,#e5eaf2 75%,#e1e7f0 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f8f9fb', endColorstr='#e1e7f0', GradientType=0);
+    border:0;
+}
+
+.popup .errortext{
+    font-size:12px;
+}
+
+.swiper-container4{
+    height:360px;
+}
+
+.swiper-container3{
+    height:390px;
+}
+
+.shopItem__info-price--btn a{
+    text-decoration: none;
+    color: #2d232b;
+}
+
+
+.shopItem__info-price--btn a:hover{
+    text-decoration: none;
+    color: #e24545;
+}
+
+.shopItem__set-list p{
+    font-size: 12rem;
+    line-height: 15rem;
+    color: #000;
+}
+

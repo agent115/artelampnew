@@ -1,0 +1,10 @@
+.shop__advice-btn a{
+	color:#000;
+}
+
+.shop__advice-btn a:hover{
+	color:#e24545;
+	text-decoration: none;
+}
+
+

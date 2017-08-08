@@ -1,0 +1,24 @@
+.shop__item--horizontal .second_pict{
+	display:none;
+}
+
+.shop__item .second_pict{
+	display:none;
+}
+
+.shop__item-btn a{
+	color:#fff;
+	text-decoration: none;
+}
+
+.shop__item-btn a:hover{
+	color:#fff;
+	text-decoration: none;
+}
+
+.row.shop__items .shop__item-razmer span{
+	top:-12px;
+}
+.col-xs-12.col-md-6 .shop__item-razmer{
+	right: 0px!important;
+}

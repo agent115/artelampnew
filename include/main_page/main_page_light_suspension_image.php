@@ -1,0 +1,1 @@
+<img class="img-responsive" src="<?=SITE_TEMPLATE_PATH?>/img/book_Arte.png" alt="">

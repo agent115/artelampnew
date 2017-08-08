@@ -1,0 +1,65 @@
+.shopMenu {
+    background: #262728
+}
+
+.shopMenu .navbar {
+    margin-bottom: 0;
+    border: none;
+    background: 0 0
+}
+
+.shopMenu .navbar ul li a {
+    font-size: 14rem;
+    line-height: 17rem;
+    padding: 18px 1.3vw !important;
+    text-transform: uppercase;
+    color: #fff
+}
+
+.shopMenu .navbar ul li a:hover {
+    text-decoration: underline;
+    color: #fff
+}
+
+.shopMenu .navbar ul li.active a, .shopMenu .navbar ul li.active:hover a {
+    color: #fff;
+    background: #be282e
+}
+
+/*.shopMenu .navbar ul li.active ul li a{
+    background: #262728 !important;
+}*/
+
+li.open:hover > a{
+    background-color: #e7e7e7 !important;
+    color: #555555 !important;
+}
+
+.shopMenu .navbar .dropdown {
+    cursor: pointer
+}
+
+.shopMenu .navbar .dropdown-menu {
+    padding: 0;
+    background: #262728
+}
+
+.shopMenu .navbar .dropdown-menu > li > a:hover {
+    background: #e02227
+}
+
+.shopMenu .navbar .dropdown-menu a.dropdown-toggle {
+    cursor: pointer
+}
+.dropdown-menu > li > a:not(.active){
+    background: #262728 !important;
+}
+.dropdown-menu > li > a:not(.active):hover{
+    color: #fff !important;
+    background: #be282e !important;
+}
+
+.dropdown-menu > li > a.active:hover{
+    background-color: #e7e7e7 !important;
+    color: #555555 !important;
+}

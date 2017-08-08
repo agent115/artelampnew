@@ -1,0 +1,36 @@
+.basket__item-delete a{
+	display: block;
+	width:25px;
+	height:25px;
+}
+
+.basket__item-pluss{
+	cursor: pointer;
+	border-left: 1px solid #bdbebe;
+}
+
+.basket_quantity_inp{
+	width:39px;
+	height:39px;
+	border:none;
+	text-align: center;
+	padding:0;
+}
+
+.table_headers{
+	display: none;
+}
+
+.bx_ordercart_order_pay_right{
+	display:none;
+}
+
+a:link, a:visited {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    color: #000;
+    text-decoration: underline;
+}
